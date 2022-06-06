@@ -69,7 +69,7 @@ header {
     color: #E5E7EB;
     padding-bottom: 10px;
 }
-button {
+.mid_section_button {
     padding: 5px 30px;
     background-color: #3882F6;
     border: none;
@@ -101,4 +101,60 @@ button {
     border-radius: 20px;
 }
 
+/* Quote Section  */
+.quote_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+   
+}
 
+.quote {
+    padding: 100px 400px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #E5E7EB;
+    
+}
+/* Action time  */
+
+.container_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.action_container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px 100px 30px 100px;
+    border-radius: 20px;
+    gap: 300px;
+}
+
+.call {
+    color: #E5E7EB;
+    font-size: 25px;
+}   
+.special {
+    font-size: 15px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+.bla {
+    color: white;
+}
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
